@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="eval.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+  <div class="CLC">
+    <form action="">
+        <input type="text"  id="result" value="" readonly>
+    </form>
+    <div class="buttons">
+        <div style="width: 100%;">
+            <button type="button" id="clear" class="btn clear">C</button>
+        </div>
+        <button type="button" class="btn opr  " value="*" onclick="display('*')">*</button>
+        <button type="button" class="btn opr " value="/" onclick="display('/')">/</button>
+        <button type="button" class="btn opr " value="+" onclick="display('+')">+</button>
+        <button type="button" class="btn opr" value="-" onclick="display('-')">-</button>
+        <button type="button" class="btn " value="1" onclick="display('1')">1</button>
+        <button type="button" class="btn " value="2" onclick="display('2')">2</button>
+        <button type="button" class="btn " value="3" onclick="display('3')">3</button>
+        <button type="button" class="btn " value="4" onclick="display('4')">4</button>
+        <button type="button" class="btn " value="5" onclick="display('5')">5</button>
+        <button type="button" class="btn " value="6" onclick="display('6')">6</button>
+        <button type="button" class="btn " value="7" onclick="display('7')">7</button>
+        <button type="button" class="btn " value="8" onclick="display('8')">8</button>
+        <button type="button" class="btn " value="9" onclick="display('9')">9</button>
+        <button type="button" class="btn " value="0" onclick="display('0')">0</button>
+        <button type="button" class="btn " value="." onclick="display('.')">.</button>
+        <button type="button" id="solve" class="btn equal">=</button>
+
+    </div>
+  </div>  
+</body>
+</html>

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.CLC {
+  width: 350px;
+  background-color: #22252d;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.7);
+}
+.CLC form input {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: black;
+}
+.CLC .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.CLC .buttons button {
+  width: 60px;
+  height: 50px;
+  border-radius: 8px;
+  margin: 2px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 600;
+}
+.CLC .buttons .opr {
+  background-color: rgb(232, 122, 25);
+}
+.CLC .buttons .clear {
+  background-color: tomato;
+}
+.CLC .buttons .equal {
+  background-color: cadetblue;
+}
